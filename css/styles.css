@@ -213,6 +213,11 @@ text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF
+}
 .portfolio-btn.active {
     background-color: #2196F3;
     color: #FFFFFF;
