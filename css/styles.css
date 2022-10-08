@@ -139,7 +139,6 @@ ul {
 /* ===START OUR TEAM=== */
 .team {
   width: 1600px;
-  /* height: 1500px; */
   left: 0px;
   top: 1446px;
   background: #f5f4fa;
@@ -169,7 +168,6 @@ ul {
 /* ===START FOOTER=== */
 .footer-block {
   width: 1600px;
-  /* height: 252px; */
   left: 0px;
   top: 2094px;
   background: #2f303a;
