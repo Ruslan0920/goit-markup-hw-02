@@ -16,7 +16,7 @@
 body {
   font-family: var(--primary-font-family);
   background-color: #ffffff;
-  /* color: #212121; */
+  color: #212121;
   }
 
 ul {
@@ -42,7 +42,6 @@ ul {
 }
 .nav-list-link {
   font-family: var(--primary-font-family);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,7 +81,6 @@ ul {
 }
 .hero {
   width: 1600px;
-  /* height: 500px; */
   left: 0px;
   top: 80px;
   background: var(--first-bcg-color);
@@ -210,6 +208,7 @@ ul {
   line-height: 1.6;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -219,9 +218,6 @@ ul {
 .portfolio-btn.active {
   background-color: var(--third-bcg-color);
   color: var(--fourth-text-color);
-}
-.portfolio-btn {
-  cursor: pointer;
 }
 .portfolio-titles {
   font-family: var(--primary-font-family);
